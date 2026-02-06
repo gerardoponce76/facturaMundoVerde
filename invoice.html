@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+		<link rel="icon" type="image/png" sizes="512x512" href="./assets/images/logo/android/android-icon-512.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./assets/images/logo/android/android-icon-192.png" />
+		<link rel="icon" type="image/png" sizes="144x144" href="./assets/images/logo/android/android-icon-144.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="./assets/images/logo/android/android-icon-96.png" />
+		<link rel="icon" type="image/png" sizes="72x72" href="./assets/images/logo/android/android-icon-72.png" />
+		<link rel="icon" type="image/png" sizes="48x48" href="./assets/images/logo/android/android-icon-48.png" />
+		<link rel="icon" type="image/png" sizes="36x36" href="./assets/images/logo/android/android-icon-36.png" />
+		<link rel="apple-touch-icon" sizes="16x16" href="./assets/images/logo/ios/ios-icon-16.png" />
+		<link rel="apple-touch-icon" sizes="20x20" href="./assets/images/logo/ios/ios-icon-20.png" />
+		<link rel="apple-touch-icon" sizes="29x29" href="./assets/images/logo/ios/ios-icon-29.png" />
+		<link rel="apple-touch-icon" sizes="32x32" href="./assets/images/logo/ios/ios-icon-32.png" />
+		<link rel="apple-touch-icon" sizes="40x40" href="./assets/images/logo/ios/ios-icon-40.png" />
+		<link rel="apple-touch-icon" sizes="50x50" href="./assets/images/logo/ios/ios-icon-50.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="./assets/images/logo/ios/ios-icon-57.png" />
+		<link rel="apple-touch-icon" sizes="58x58" href="./assets/images/logo/ios/ios-icon-58.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="./assets/images/logo/ios/ios-icon-60.png" />
+		<link rel="apple-touch-icon" sizes="64x64" href="./assets/images/logo/ios/ios-icon-64.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="./assets/images/logo/ios/ios-icon-72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="./assets/images/logo/ios/ios-icon-76.png" />
+		<link rel="apple-touch-icon" sizes="80x80" href="./assets/images/logo/ios/ios-icon-80.png" />
+		<link rel="apple-touch-icon" sizes="87x87" href="./assets/images/logo/ios/ios-icon-87.png" />
+		<link rel="apple-touch-icon" sizes="100x100" href="./assets/images/logo/ios/ios-icon-100.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="./assets/images/logo/ios/ios-icon-114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="./assets/images/logo/ios/ios-icon-120.png" />
+		<link rel="apple-touch-icon" sizes="128x128" href="./assets/images/logo/ios/ios-icon-128.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="./assets/images/logo/ios/ios-icon-144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="./assets/images/logo/ios/ios-icon-152.png" />
+		<link rel="apple-touch-icon" sizes="167x167" href="./assets/images/logo/ios/ios-icon-167.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo/ios/ios-icon-180.png" />
+		<link rel="apple-touch-icon" sizes="192x192" href="./assets/images/logo/ios/ios-icon-192.png" />
+		<link rel="apple-touch-icon" sizes="256x256" href="./assets/images/logo/ios/ios-icon-256.png" />
+		<link rel="apple-touch-icon" sizes="512x512" href="./assets/images/logo/ios/ios-icon-512.png" />
+		<link rel="apple-touch-icon" sizes="1024x1024" href="./assets/images/logo/ios/ios-icon-1024.png" />    
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="./assets/images/logo/ms/ms-icon-144.png" />
+		<meta name="theme-color" content="#ffffff" />    
+		<meta name="description" content="Transporte Ejecutivo Mty" />
+		<link rel="apple-touch-icon" href="./assets/images/logo/ios/ios-icon-192.png" />
+		<!--
+manifest.json provides metadata used when your web app is installed on a
+user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+-->
+		<link rel="manifest" href="./manifest.json" />    
+		<title>Transporte Ejecutivo Mty</title>     
+		<!-- POLO stylesheets & fonts -->
+		<link href="./assets/templates/polo/css/plugins.css" rel="stylesheet">
+		<link href="./assets/templates/polo/css/style.css" rel="stylesheet">
+		<link href="./assets/templates/polo/css/theme.css" rel="stylesheet">
+		<!-- App base stylesheets -->
+		<link href="./assets/styles/base/components/backgrounds.css" rel="stylesheet">
+		<link href="./assets/styles/base/components/texts.css" rel="stylesheet">
+		<!-- App views stylesheets -->
+		<link href="./assets/styles/views/base.css" rel="stylesheet">
+		<link href="./assets/styles/views/components/invoice.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="body-inner">
+			<!-- Header -->
+			<header id="header" data-transparent="true" data-fullwidth="true" class="light submenu-light">
+				<div class="header-inner">
+					<div class="container">
+						<!-- Logo-->
+						<div id="logo">
+							
+								<span class="logo-default">
+									<img class="app-logo" 
+											 src="./assets/images/logo/logo-horizontal-black.png" 
+											 alt="logo"/>
+								</span>								
+								
+							
+						</div>						
+						<!-- Header extras-->
+						<div class="header-extras">
+							<ul>
+								<li>
+									<div class="p-dropdown">
+										<a href="#">
+											<i class="icon-globe"></i>&nbsp;
+											<span id="languageLabel">ES</span>
+										</a>
+										<ul class="p-dropdown-content">
+											<li><a href="#" onclick="_app.header.onLanguageClick('es'); return false;" lang="es" data-lang-token="headerLanguageSpanish">Español</a></li>
+											<li><a href="#" onclick="_app.header.onLanguageClick('en'); return false;" lang="es" data-lang-token="headerLanguageEnglish">English</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>						
+						<!-- Navigation removed per request -->
+					</div>
+				</div>
+			</header>			
+			<!-- Invoice -->
+			<section id="page-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="successAlert" role="alert" class="alert alert-success alert-dismissible" style="display:none">
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
+								<strong>
+									<i class="fa fa-check-circle"></i>
+									<span lang="es" data-lang-token="invoiceAlertsSucccessHeader">
+										¡Factura!
+									</span>
+								</strong>
+								<span lang="es" data-lang-token="invoiceAlertsSucccessText">
+									¡Datos enviados correctamente!
+								</span>
+								<div id="downloadInvoiceButtonsContainer">
+								</div>
+							</div>
+							<div id="errorAlert" role="alert" class="alert alert-warning alert-dismissible" style="display:none">
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
+								<strong>
+									<i class="fa fa-exclamation-circle"></i>						
+								</strong>
+								<span id="errorMessageLabel">									
+								</span>
+							</div>
+						</div>			
+					</div>					
+					<div class="row">
+						<div class="content col-xs-12">									
+							<div class="card">
+								<div class="card-header">
+									<h4 class="h4" lang="es" data-lang-token="invoiceFormHeader">
+										Facturar
+									</h4>
+									<div class="mt-2">
+										<p class="text-muted" lang="es" data-lang-token="invoiceFormText1">
+											Puedes facturar tu viaje después de finalizado, dentro  del mismo mes.
+										</p>
+										<p class="text-muted" lang="es" data-lang-token="invoiceFormText2">
+											Antes de llenar la forma, por favor lee las instrucciones y avisos que se encuentran en los iconos de ayuda y debajo de la forma en ‘Sobre Facturar’.
+										</p>
+									</div>
+								</div>
+								<div class="card-body">
+									<form id="invoiceform" class="form-validate">
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="serviceNumberInput">
+													<span lang="es" data-lang-token="invoiceFormFieldService">
+														Número de servicio														
+													</span>
+													<span id="serviceNumberTooltip">
+														<span id="serviceNumberTooltipIcon" class="app-tooltip-icon" tabindex="0" data-tooltip="" data-tooltip-fallback="En boleto de cajero son los 15 dígitos de la última fila que solo tiene números. En reserva son los 9 dígitos del renglón titulado &quot;Recibo #&quot;." aria-label="?" title="?" data-tooltip-aria="?" data-tooltip-title="?" >?</span>
+													</span>
+												</label>
+												<input id="serviceNumberInput" type="text" class="form-control" name="serviceNumberInput" lang="es" data-lang-token="invoiceFormFieldServicePlaceholder" data-lang-content="false" placeholder="" required>								
+											</div>											
+										</div>	
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="rfcInput" lang="es" data-lang-token="invoiceFormFieldTaxID">
+													RFC
+												</label>
+												<input id="rfcInput" type="text" class="form-control" name="rfcInput" lang="es" data-lang-token="invoiceFormFieldTaxIDPlaceholder" data-lang-content="false" placeholder="" required>										
+											</div>											
+										</div>	
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="nameInput">
+													<span lang="es" data-lang-token="invoiceFormFieldTaxName">
+														Nombre fiscal
+													</span>															
+													<span id="taxNameTooltip">
+														<span id="taxNameTooltipIcon" class="app-tooltip-icon" tabindex="0" data-tooltip="" data-tooltip-fallback="Si es una persona moral el nombre no lleva las siglas del tipo de sociedad (SA de CV, AC, SAPI, etc.)" aria-label="?" title="?" data-tooltip-aria="?" data-tooltip-title="?" >?</span>
+													</span>
+												</label>
+												<input id="nameInput" type="text" class="form-control" name="nameInput" lang="es" data-lang-token="invoiceFormFieldTaxNamePlaceholder" data-lang-content="false" placeholder="" required>										
+											</div>											
+										</div>	
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="zipCodeInput" lang="es" data-lang-token="invoiceFormFieldZIPCode">
+													Código postal fiscal
+												</label>
+												<input id="zipCodeInput" type="text" class="form-control" name="zipCodeInput" lang="es" data-lang-token="invoiceFormFieldZIPCodePlaceholder" data-lang-content="false" placeholder="" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="taxRegimeInput" lang="es" data-lang-token="invoiceFormFieldTaxRegime">
+													Régimen fiscal
+												</label>
+												<select id="taxRegimeInput" class="form-select" name="taxRegimeInput" required>															
+													<option value="" lang="es" data-lang-token="invoiceFormSelectDefaultValue">Selecciona una opción</option>
+													<option value="601" lang="es" data-lang-token="taxRegime601">General de Ley Personas Morales</option>
+													<option value="603" lang="es" data-lang-token="taxRegime603">Personas Morales con Fines no Lucrativos</option>
+													<option value="605" lang="es" data-lang-token="taxRegime605">Sueldos y Salarios e Ingresos Asimilados a Salarios</option>
+													<option value="606" lang="es" data-lang-token="taxRegime606">Arrendamiento</option>
+													<option value="607" lang="es" data-lang-token="taxRegime607">Regimen de Enajenacion o Adquisicion de Bienes</option>
+													<option value="608" lang="es" data-lang-token="taxRegime608">Demas ingresos</option>
+													<option value="609" lang="es" data-lang-token="taxRegime609">Consolidacion</option>
+													<option value="610" lang="es" data-lang-token="taxRegime610">Residentes en el Extranjero sin Establecimiento Permanente en Mexico</option>
+													<option value="611" lang="es" data-lang-token="taxRegime611">Ingresos por Dividendos (socios y accionistas)</option>
+													<option value="612" lang="es" data-lang-token="taxRegime612">Personas Fisicas con Actividades Empresariales y Profesionales</option>
+													<option value="614" lang="es" data-lang-token="taxRegime614">Ingresos por intereses</option>
+													<option value="615" lang="es" data-lang-token="taxRegime615">Regimen de los ingresos por obtencion de premios</option>
+													<option value="616" lang="es" data-lang-token="taxRegime616">Sin obligaciones fiscales</option>
+													<option value="620" lang="es" data-lang-token="taxRegime620">Sociedades Cooperativas de Produccion que optan por diferir sus ingresos</option>
+													<option value="621" lang="es" data-lang-token="taxRegime621">Incorporacion Fiscal</option>
+													<option value="622" lang="es" data-lang-token="taxRegime622">Actividades Agricolas, Ganaderas, Silvicolas y Pesqueras</option>
+													<option value="623" lang="es" data-lang-token="taxRegime623">Opcional para Grupos de Sociedades</option>
+													<option value="624" lang="es" data-lang-token="taxRegime624">Coordinados</option>
+													<option value="625" lang="es" data-lang-token="taxRegime625">Regimen de las Actividades Empresariales con ingresos a traves de Plataformas Tecnologicas</option>
+													<option value="626" lang="es" data-lang-token="taxRegime626">Regimen Simplificado de Confianza</option>
+													<option value="628" lang="es" data-lang-token="taxRegime628">Hidrocarburos</option>
+													<option value="629" lang="es" data-lang-token="taxRegime629">De los Regimenes Fiscales Preferentes y de las Empresas Multinacionales</option>
+													<option value="630" lang="es" data-lang-token="taxRegime630">Enajenacion de acciones en bolsa de valores</option>
+												</select>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="paymentTypeInput" lang="es" data-lang-token="invoiceFormFieldPaymentMethod">
+													Forma de pago
+												</label>
+												<select id="paymentTypeInput" class="form-select" name="paymentTypeInput" required>															
+													<option value="" lang="es" data-lang-token="invoiceFormSelectDefaultValue">Selecciona una opción</option>
+													<option value="01" lang="es" data-lang-token="invoiceFormFieldPaymentMethodSelectOptionCash">Efectivo</option>
+													<option value="04" lang="es" data-lang-token="invoiceFormFieldPaymentMethodSelectOptionCreditCard">Tarjeta de crédito</option>
+													<option value="28" lang="es" data-lang-token="invoiceFormFieldPaymentMethodSelectOptionDebitCard">Tarjeta de débito</option>
+													<option value="03" lang="es" data-lang-token="invoiceFormFieldPaymentMethodSelectOptionTransfer">Transferencia electrónica de fondos</option>
+												</select>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="emailInput">
+													<span lang="es" data-lang-token="invoiceFormFieldEmail">
+														Correo electrónico
+													</span>																										
+													<span id="emailTooltip">
+														<span id="emailTooltipIcon" class="app-tooltip-icon" tabindex="0" data-tooltip="" data-tooltip-fallback="A este correo se enviaran los documentos PDF y XML, por favor verifica que este escrito correctamente. Si no llega puedes verificar tu bandeja de spam y marcarlo como confiable para próximos correos" aria-label="?" title="?" data-tooltip-aria="?" data-tooltip-title="?" >?</span>
+													</span>													
+												</label>
+												<input id="emailInput" type="email" class="form-control" name="emailInput" lang="es" data-lang-token="invoiceFormFieldEmailPlaceholder" data-lang-content="false" placeholder="" required>
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-12">
+												<label for="confirmEmailInput">
+													<span lang="es" data-lang-token="invoiceFormFieldConfirmEmail">
+														Confirmar Correo electrónico
+													</span>																										
+													<span id="emailTooltip">
+													</span>													
+												</label>
+												<input id="confirmEmailInput" type="email" class="form-control" name="confirmEmailInput" lang="es" data-lang-token="invoiceFormFieldConfirmEmailPlaceholder" data-lang-content="false" placeholder="" required>
+											</div>
+										</div>
+										<button id="invoiceButton" type="button" class="btn m-t-30 mt-3" onclick="_invoice.onInvoiceClick()">
+											Facturar
+										</button>						
+									</form>
+								</div>
+							</div>							
+							<div class="line"></div>			
+							<h2 lang="es" data-lang-token="invoiceAboutHeader">
+								Sobre Facturar
+							</h2>							
+							<p lang="es" data-lang-token="invoiceAboutText1">
+								Ten a la mano tu recibo de reservación o boleto de cajero automático; y tu Constancia de Situación Fiscal más reciente o los datos contenidos en ella.
+							</p>
+							<p lang="es" data-lang-token="invoiceAboutText2">
+								El número de servicio en tu recibo de reservación son los nueve dígitos del primer renglón. En boleto de cajero automático, son los 15 dígitos del último renglón que solo tiene números.
+							</p>							
+							<div class="row m-b-20">						
+								<div class="col-xs-12" id="invoiceReferenceImage">									
+								</div>
+							</div>
+							<p lang="es" data-lang-token="invoiceAboutText3">
+								Por reglas del SAT la versión 4.0 requiere que la información ingresada para elaborar tu factura coincida con la Constancia de Situación Fiscal más actualizada.
+							</p>							
+							<p>
+								<span lang="es" data-lang-token="invoiceAboutText4">
+									Es una forma que emite el SAT sin costo. Si aún no la tienes –antes de continuar-
+								</span>
+								<b>
+									<a class="app-p-link" 
+										 href="https://www.sat.gob.mx/home" 
+										 target="_blank" 
+										 rel="noopener" 
+										 lang="es" 
+										 data-lang-token="invoiceAboutText5">
+										descárgala
+									</a>
+								</b>
+								<span lang="es" data-lang-token="invoiceAboutText6">
+									o pídela a contabilidad o recursos humanos de tu empresa.
+								</span>
+							</p>							
+							<p>
+								<span lang="es" data-lang-token="invoiceAboutText7">
+									Llena los campos de la plantilla con los datos de tu empresa,
+								</span>
+								<b lang="es" data-lang-token="invoiceAboutText8">
+									exactamente
+								</b>
+								<span lang="es" data-lang-token="invoiceAboutText9">
+									como vienen en la Constancia. Por ejemplo, si es una persona moral  el nombre
+								</span>
+								<b lang="es" data-lang-token="invoiceAboutText10">
+									no
+								</b>
+								<span lang="es" data-lang-token="invoiceAboutText11">
+									lleva las siglas del tipo de sociedad (SA de CV, AC, SAPI,  etc.). De igual forma, las abreviaturas, espacios y puntuación deben ser las mismas.
+								</span>
+							</p>							
+							<p lang="es" data-lang-token="invoiceAboutText12">
+								Revisa con cuidado los datos ingresados antes de solicitar la factura. Una vez elaborada, no se hacen cancelaciones o reemplazos.
+							</p>							
+							<p lang="es" data-lang-token="invoiceAboutText13">
+								Puedes elaborar tu factura dentro del mismo mes que fue prestado el servicio.
+							</p>							
+							<p lang="es" data-lang-token="invoiceAboutText14">
+								Si recibes mensaje de error puede ser por dos motivos principalmente:
+							</p>							
+							<ol>
+								<li lang="es" data-lang-token="invoiceAboutText15">
+									Redacción equivocada de datos. En este caso, solo tienes que comparar lo capturado con tu boleto y/o constancia, corregir la redacción y volver a enviar, o
+								</li>
+								<li lang="es" data-lang-token="invoiceAboutText16">
+									Consigue una constancia actualizada, ya que los datos ingresados no son los vigentes en la base de datos del SAT.
+								</li>
+							</ol>		
+							<p lang="es" data-lang-token="invoiceAboutText17">
+								Si eres extranjero no necesitas una constancia. Utiliza el RFC genérico: XEXX010101000, Código fiscal postal: 66629, régimen fiscal: Sin Obligaciones Fiscales.
+							</p>
+							<p  lang="es" data-lang-token="invoiceAboutText18">
+								El servicio de transporte público terrestre de personas está exento de IVA.
+							</p>
+							<h2 lang="es" data-lang-token="invoiceAttendanceHeader">
+								Asistencia
+							</h2>				
+							<p>
+								<span lang="es" data-lang-token="invoiceAttendanceText1">
+									Si prefieres asistencia adicional para generar tu factura por favor envíanos un correo a
+								</span>
+								<b><a href="mailto:facturacion@transporte-ejecutivo.mx" class="app-p-link" target="_blank" rel="noopener">facturacion@transporte-ejecutivo.mx</a></b>
+								<span lang="es" data-lang-token="invoiceAttendanceText2">
+									con:
+								</span>
+							</p>
+							<ol>
+								<li lang="es" data-lang-token="invoiceAttendanceText3">
+									Imagen de tu boleto de cajero o recibo de reservación.
+								</li>
+								<li lang="es" data-lang-token="invoiceAttendanceText4">
+									Los datos fiscales RFC, nombre, código postal, régimen y forma de pago, o si lo prefieres anexa la Constancia de Situación Fiscal actualizada y de ahí tomamos los datos.
+								</li>
+								<li lang="es" data-lang-token="invoiceAttendanceText5">
+									Si pagaste con tarjeta por favor incluye si fue de crédito o débito.
+								</li>
+							</ol>
+							<p lang="es" data-lang-token="invoiceAttendanceText6">
+								Y te la enviaremos máximo al siguiente día hábil.
+							</p>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- Footer removed per request -->
+		</div>
+		<!-- Scroll top -->
+		<a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+		<noscript lang="es" data-lang-token="noscriptText">You need to enable JavaScript to run this app.</noscript>     		
+		<!-- POLO Tempalate Plugin: Popper -->
+		<script src="./assets/templates/polo/plugins/popper/popper.min.js"></script>
+		<!-- POLO Template Plugins-->
+		<script src="./assets/templates/polo/js/jquery.js"></script>		
+		<script src="./assets/templates/polo/js/plugins.js"></script>
+		<!-- POLO Template functions-->
+		<script src="./assets/templates/polo/js/functions.js"></script>
+		<!-- POLO Tempalate Plugin: jQuery Validate -->
+		<script src="./assets/templates/polo/plugins/validate/validate.min.js"></script>
+		<script src="./assets/templates/polo/plugins/validate/valildate-rules.js"></script>		
+		<!-- JQuery Lang -->
+		<script src="./assets/components/jquery-lang-js/js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+		<script src="./assets/components/jquery-lang-js/js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>		
+		<!-- App -->		
+		<script src="./views/header.js" charset="utf-8" type="text/javascript"></script>
+		<script src="./views/invoice.js" charset="utf-8" type="text/javascript"></script>
+		<script src="./main.js" charset="utf-8" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+.app-home-mobile .app-home-mobile-title-md {
+	font-size: 2.55rem;        
+}
+
+.app-home-mobile .app-home-mobile-title-xs {
+	font-size: 2rem;
+}
+
+.app-home-mobile .app-home-mobile-text {
+	font-size: 1.275rem;
+	line-height: 1.7rem;
+}
+
+.app-home-mobile .app-home-mobile-iframe {
+	min-height: 650px;
+}
+
+.app-home-mobile .app-home-mobile-help-icon {
+	font-size: large;
+}
+
+.app-home-reserve {	
+	background-image: url('../../../images/reserve-parallax/reserve-parallax-van-w-logo.jpg');
+	background-position: center;
+}
+
+.app-home-whatsapp-button {	
+	position: fixed!important;
+	z-index: 9999;
+	right: 30px;
+	bottom: 20%			
+}
+
+.app-home-whatsapp-button img {
+	width: 30px;
+	position: relative;
+	bottom: 8px;
+	right: 8px;	
+}

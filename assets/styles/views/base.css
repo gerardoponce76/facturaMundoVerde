@@ -1,0 +1,121 @@
+.app-logo {
+	max-height: 60px;
+	height: 60px;
+	width: auto;
+	max-width: 100%;
+}
+
+.app-p-link {
+	color: inherit;
+	text-decoration: underline;  
+	text-decoration-thickness: 2px;  
+	text-decoration-color: inherit;
+}
+
+.app-parallax-fixed {
+	position: relative;
+	background-attachment: fixed;	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.app-tooltip-icon {
+	margin-left: 6px;
+	color: #4b5563;
+	border: 1px solid #cbd5e1;
+	border-radius: 50%;
+	background: #fff;
+	cursor: help;
+	font-size: 11px;
+	font-weight: 600;
+	position: relative;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.app-tooltip-icon::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	left: 0;
+	top: calc(100% + 8px);
+	background: #1e2022;
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 6px;
+	width: 320px;
+	font-size: 12px;
+	line-height: 1.35;
+	white-space: normal;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.15s ease-in-out;
+	z-index: 9999;
+}
+
+.app-tooltip-icon::before {
+	content: "";
+	position: absolute;
+	left: 8px;
+	top: calc(100% + 2px);
+	border-width: 0 6px 6px 6px;
+	border-style: solid;
+	border-color: transparent transparent #1e2022 transparent;
+	opacity: 0;
+	transition: opacity 0.15s ease-in-out;
+	z-index: 9999;
+}
+
+.app-tooltip-icon:hover::after,
+.app-tooltip-icon:hover::before,
+.app-tooltip-icon:focus::after,
+.app-tooltip-icon:focus::before {
+	opacity: 1;
+}
+
+
+.app-download-icon {
+	width: 16px;
+	height: 16px;
+	margin-left: 6px;
+	vertical-align: middle;
+	fill: currentColor;
+}
+
+#header,
+#header .header-inner,
+#header #logo {
+	height: 80px;
+	line-height: 80px;
+}
+
+#header #logo a > img {
+	max-height: 60px;
+	height: 60px;
+	width: auto;
+}
+
+@media (max-width: 991.98px) {
+	#header,
+	#header .header-inner,
+	#header #logo {
+		height: 70px;
+		line-height: 70px;
+	}
+
+	#header #logo a > img,
+	.app-logo {
+		max-height: 50px;
+		height: 50px;
+	}
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+  .app-parallax-fixed {
+    background-attachment: scroll;
+  }
+}
